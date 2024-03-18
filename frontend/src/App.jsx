@@ -1,11 +1,10 @@
+import Home from './components/Home'
 import './index.css'
 
 const App = () => {
   return (
-    <div>
-      <h1 className='font-bold'>
-      Twitter
-      </h1>
+    <div className='bg-slate-200'>
+      <Home/>
     </div>
   )
 }
