@@ -8,7 +8,7 @@ import { IoMdExit } from "react-icons/io";
 
 const LeftSidebar = () => {
   return (
-    <div>
+    <div className='w-[20%]'>
         <div>
             <div>
                 <img className='ml-1' width={"65px"} src='SM.png' alt='Logo'/>
