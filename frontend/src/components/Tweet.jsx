@@ -6,7 +6,7 @@ import { IoBookmark } from "react-icons/io5";
 
 const Tweet = () => {
   return (
-    <div>
+    <div className='border-b border-gray-100 '>
         <div>
             <div className='flex p-4'>
                 <Avatar src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsoEAMYKHiwI5JH_IlxayW3-9UurHlASFy9A&s" size="40" round={true} />
