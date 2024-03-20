@@ -11,6 +11,7 @@ const RightSidebar = () => {
       </div>
       <div className='p-4 bg-slate-100 rounded-2xl my-4 '>
         <h1 className='font-bold text-lg my-3'>People To Follow</h1>
+        
         <div className='flex items-center justify-between my-3'>
           <div className='flex'>
             <div>
