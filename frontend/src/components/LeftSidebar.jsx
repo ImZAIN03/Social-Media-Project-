@@ -5,6 +5,7 @@ import { IoIosNotifications } from "react-icons/io";
 import { FaUser } from "react-icons/fa";
 import { IoBookmarks } from "react-icons/io5";
 import { IoMdExit } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const LeftSidebar = () => {
   return (
@@ -14,12 +15,12 @@ const LeftSidebar = () => {
                 <img className='ml-1' width={"65px"} src='SM.png' alt='Logo'/>
             </div>
             <div className='my-3 '>
-                <div className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
+                <Link to="/" className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                     <div>                        
                     <FaHome size={"24px"}/>
                     </div>
                     <h1 className='font-bold text-md ml-1'>Home</h1>
-                </div>
+                </Link>
                 <div className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                     <div>                        
                     <FaHashtag size={"24px"}/>
@@ -32,12 +33,12 @@ const LeftSidebar = () => {
                     </div>
                     <h1 className='font-bold text-md ml-1'>Notifications</h1>
                 </div>
-                <div className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
+                <Link to="/profile" className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                     <div>                        
                     <FaUser size={"24px"}/>
                     </div>
                     <h1 className='font-bold text-md ml-1'>Profile</h1>
-                </div>
+                </Link>
                 <div className='flex items-center my-2 px-1 py-2 hover:bg-gray-200 hover:cursor-pointer rounded-full'>
                     <div>                        
                     <IoBookmarks size={"24px"}/>
